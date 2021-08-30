@@ -12,7 +12,10 @@ kubectl get pod
 kubectl get pod -o wide
 ```
 
-`kubectl get deployment`
+```
+kubectl get deployment
+kubectl get deployment -o yaml
+```
 
 `kubectl get service`
 
