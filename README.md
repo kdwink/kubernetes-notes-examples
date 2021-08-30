@@ -15,7 +15,7 @@
 
 `kubectl get replicaset`
         
-### create / delete deployment
+### create / edit / delete deployment
 
 `kubectl create deployment nginx-depl --image=nginx`
 
