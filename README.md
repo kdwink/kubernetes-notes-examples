@@ -19,6 +19,8 @@
 
 `kubectl create deployment nginx-depl --image=nginx`
 
+`kubectl edit-deployment <deployment-name>`
+
 `kubectl delete-deployment <deployment-name>`
                                  
 ### logs / exec
