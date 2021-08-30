@@ -4,6 +4,8 @@
 ## kubectl
      
 ### get / status
+                        
+`kubectl get all`
 
 `kubectl get nodes`
 
