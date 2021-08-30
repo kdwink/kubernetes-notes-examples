@@ -20,6 +20,9 @@ kubectl get deployment -o yaml
 `kubectl get service`
 
 `kubectl get replicaset`
+
+`kubectl get secret`
+
         
 ### create / edit / delete deployment
 
