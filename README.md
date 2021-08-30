@@ -11,6 +11,8 @@
 
 `kubectl get deployment`
 
+`kubectl get service`
+
 `kubectl get replicaset`
         
 ### create / delete deployment
