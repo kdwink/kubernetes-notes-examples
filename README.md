@@ -1,6 +1,30 @@
 # kubernetes
 
-   
+                                     
+## kubectl
+     
+### get / status
+
+`kubectl get nodes`
+
+`kubectl get pods`
+
+`kubectl get deployment`
+
+`kubectl get replicaset`
+        
+### create / delete deployment
+
+`kubectl create deployment nginx-depl --image=nginx`
+
+`kubectl delete-deployment <deployment-name>`
+                                 
+### logs / exec
+
+`kubectl logs <deployment-name>`
+                     
+`kubectl exec -it <pod name> -- bin/bash`
+
 
 ## Reference 
 
