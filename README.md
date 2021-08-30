@@ -7,7 +7,10 @@
 
 `kubectl get nodes`
 
-`kubectl get pods`
+```
+kubectl get pod
+kubectl get pod -o wide
+```
 
 `kubectl get deployment`
 
@@ -22,7 +25,11 @@
 `kubectl edit-deployment <deployment-name>`
 
 `kubectl delete-deployment <deployment-name>`
-                                 
+            
+### services
+
+`kubectl describe service <service-name>`
+                     
 ### logs / exec
 
 `kubectl logs <deployment-name>`
