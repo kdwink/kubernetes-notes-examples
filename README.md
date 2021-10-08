@@ -2,7 +2,11 @@
 
                                      
 ## kubectl
-     
+ 
+### config
+
+`kubectl config view`
+    
 ### get / status
                         
 `kubectl get all`
