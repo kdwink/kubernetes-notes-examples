@@ -47,11 +47,13 @@ kubectl delete -f <some>-deployment.yaml
 
 `kubectl describe service <service-name>`
                      
-### logs / exec
+### logs
 
 `kubectl logs <deployment-name>`
-                     
-`kubectl exec -it <pod name> -- bin/bash`
+
+### exec
+                  
+`kubectl exec -it <pod name> -- bash`
 
 
 ## Reference 
