@@ -14,8 +14,10 @@
 `kubectl get nodes`
 
 ```
-kubectl get pod
-kubectl get pod -o wide
+kubectl get pod <pod-name>
+kubectl get pod -o wide <pod-name>
+kubectl get pods
+kubectl get pods --watch
 ```
 
 ```
@@ -49,7 +51,11 @@ kubectl delete -f <some>-deployment.yaml
                      
 ### logs
 
-`kubectl logs <deployment-name>`
+```
+kubectl logs <deployment-name>
+kubectl logs <pod-name>
+kubectl logs <pod-name> --container <container-name>
+```
 
 ### exec
                   
