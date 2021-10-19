@@ -54,7 +54,8 @@ kubectl delete -f <some>-deployment.yaml
 ```
 kubectl logs <deployment-name>
 kubectl logs <pod-name>
-kubectl logs <pod-name> --container <container-name>
+kubectl logs <pod-name> --follow
+kubectl logs <pod-name> --follow --container <container-name> 
 ```
 
 ### exec
