@@ -8,7 +8,11 @@
 
 ### config
 
-`kubectl config view`
+```
+kubectl config view
+
+kubectl config set-context --current --namespace <ns-name>
+```
 
 ### nodes
        
