@@ -1,4 +1,4 @@
-# kubernetes
+    # kubernetes
 
                                      
 ## kubectl
@@ -6,12 +6,8 @@
 ### config
 
 `kubectl config view`
-    
-### get / status
-                        
-`kubectl get all`
-
-`kubectl get nodes`
+      
+### pods
 
 ```
 kubectl get pod <pod-name>
@@ -19,6 +15,13 @@ kubectl get pod -o wide <pod-name>
 kubectl get pods
 kubectl get pods --watch
 ```
+
+### get / status
+                        
+`kubectl get all`
+
+`kubectl get nodes`
+
 
 ```
 kubectl get deployment
