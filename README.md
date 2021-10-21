@@ -13,6 +13,13 @@
 ### nodes
        
 `kubectl get nodes`
+                                      
+### namespaces
+
+```
+kubectl get namespaces
+kubectl create namespace <ns-name>
+```
 
 ### services
 
