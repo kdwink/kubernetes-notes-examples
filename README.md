@@ -3,10 +3,25 @@
                                      
 ## kubectl
  
+
+`kubectl get all`
+
 ### config
 
 `kubectl config view`
-      
+
+### nodes
+       
+`kubectl get nodes`
+
+### services
+
+```
+kubectl get service
+kubectl describe service <service-name>
+```
+  
+
 ### pods
 
 ```
@@ -16,30 +31,17 @@ kubectl get pods
 kubectl get pods --watch
 ```
 
-### get / status
-                        
-`kubectl get all`
-
-`kubectl get nodes`
-
+### deployments
 
 ```
 kubectl get deployment
 kubectl get deployment -o yaml
 ```
 
-`kubectl get service`
-
-`kubectl get replicaset`
-
-`kubectl get secret`
-
-        
-### create / edit / delete deployment
-
-`kubectl create deployment nginx-depl --image=nginx`
-
-`kubectl edit-deployment <deployment-name>`
+```
+kubectl create deployment nginx-depl --image=nginx`
+kubectl edit-deployment <deployment-name>`
+```
 
 ```
 kubectl apply -f <some>-deployment.yaml
@@ -48,10 +50,6 @@ kubectl delete -f <some>-deployment.yaml
 
 `kubectl delete-deployment <deployment-name>`
             
-### services
-
-`kubectl describe service <service-name>`
-                     
 ### logs
 
 ```
@@ -64,6 +62,11 @@ kubectl logs <pod-name> --follow --container <container-name>
 ### exec
                   
 `kubectl exec -it <pod name> -- bash`
+
+### other
+
+`kubectl get replicaset`
+`kubectl get secret`
 
 
 ## Reference 
