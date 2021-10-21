@@ -19,6 +19,7 @@
 ```
 kubectl get namespaces
 kubectl create namespace <ns-name>
+kubectl delete namespace <ns-name>
 ```
 
 ### services
