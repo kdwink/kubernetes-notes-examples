@@ -51,8 +51,10 @@ kubectl get deployment -o yaml
 ```
 
 ```
-kubectl create deployment nginx-depl --image=nginx`
-kubectl edit-deployment <deployment-name>`
+kubectl create deployment nginx-depl --image=nginx
+kubectl delete deployment <deployment-name>
+
+kubectl edit-deployment <deployment-name>
 ```
 
 ```
@@ -60,7 +62,6 @@ kubectl apply -f <some>-deployment.yaml
 kubectl delete -f <some>-deployment.yaml
 ```
 
-`kubectl delete-deployment <deployment-name>`
             
 ### logs
 
