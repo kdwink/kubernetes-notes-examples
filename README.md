@@ -46,8 +46,10 @@ kubectl get pods --watch
 ### deployments
 
 ```
-kubectl get deployment
-kubectl get deployment -o yaml
+kubectl get deployment <deployment-name>
+kubectl get deployment -o yaml <deployment-name>
+
+kubectl describe deployment <deployment-name>
 ```
 
 ```
