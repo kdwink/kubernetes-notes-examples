@@ -29,7 +29,16 @@ kubectl delete namespace <ns-name>
 kubectl get service
 kubectl describe service <service-name>
 ```
-  
+
+### ingress
+
+```
+kubectl get ingressclass
+kubeclt get ingress
+
+kubectl describe ingress <ingress-name>
+```
+
 
 ### pods
 
