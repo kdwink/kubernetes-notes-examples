@@ -6,5 +6,5 @@
                    
 ## External
 
-* **NodePort**:  Like ClusterIP but ALSO exposes a port for access from outside the cluster.
+* **NodePort**:  Like ClusterIP but ALSO exposes a port (on every node) for access from outside the cluster.
 * **LoadBalancer**:
