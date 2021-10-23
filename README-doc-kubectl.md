@@ -79,9 +79,3 @@ kubectl logs <pod-name> --follow --container <container-name>
 
 `kubectl get replicaset`
 `kubectl get secret`
-
-
-## Reference 
-
-* Main site https://kubernetes.io/
-* microk8s: https://microk8s.io/
