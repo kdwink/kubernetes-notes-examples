@@ -1,8 +1,5 @@
-# kubernetes
 
-                                     
-## kubectl
- 
+### all
 
 `kubectl get all`
 
