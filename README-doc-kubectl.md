@@ -45,9 +45,11 @@ kubectl describe ingress <ingress-name>
 ### pods
 
 ```
+kubectl get pods
+kubectl get pods --all-namespaces
+
 kubectl get pod <pod-name>
 kubectl get pod -o wide <pod-name>
-kubectl get pods
 kubectl get pods --watch
 ```
 
