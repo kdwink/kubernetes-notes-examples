@@ -5,6 +5,8 @@
                               
 # Commands
 
+* microk8s stop
+* microk8s start
 * microk8s status
 * microk8s enable dns
 * microk8s enable ingress
