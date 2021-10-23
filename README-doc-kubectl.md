@@ -26,6 +26,8 @@ kubectl delete namespace <ns-name>
 ### services
 
 ```
+kubectl get services --all-namespace
+
 kubectl get service
 kubectl describe service <service-name>
 ```
