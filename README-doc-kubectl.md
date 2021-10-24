@@ -103,6 +103,8 @@ kubectl get pv
 ``` 
 kubectl get configmaps
 kubectl get cm
+
+kubectl describe cm <config-map>
 ```
 
 ### logs
