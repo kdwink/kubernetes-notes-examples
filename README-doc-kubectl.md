@@ -74,7 +74,7 @@ kubectl apply -f <some>-deployment.yaml
 kubectl delete -f <some>-deployment.yaml
 ```
      
-## storage classes
+### storage classes
 
 ```
 kubectl get storageclasses
@@ -83,7 +83,7 @@ kubectl get sc
 kubectl describe storageclasses <storage-class-name>
 ```
 
-## persistent volume claims
+### persistent volume claims
 
 ```
 kubectl get pvc 
@@ -105,6 +105,12 @@ kubectl logs <deployment-name>
 kubectl logs <pod-name>
 kubectl logs <pod-name> --follow
 kubectl logs <pod-name> --follow --container <container-name> 
+```
+  
+### events
+
+``` 
+kubectl get events
 ```
 
 ### exec
