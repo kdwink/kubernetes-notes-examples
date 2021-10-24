@@ -79,6 +79,8 @@ kubectl delete -f <some>-deployment.yaml
 ```
 kubectl get storageclasses
 kubectl get sc
+
+kubectl describe storageclasses <storage-class-name>
 ```
             
 ### logs
