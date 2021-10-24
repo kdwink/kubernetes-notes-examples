@@ -103,6 +103,7 @@ kubectl get pv
 ``` 
 kubectl get configmaps
 kubectl get cm
+kubectl get cm <config-map-name> -o yaml
 
 kubectl describe cm <config-map>
 ```
