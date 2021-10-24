@@ -1,25 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    name: kdw-deploy
+  name: kdw-deploy
 spec:
-    replicas: 6
-    selector:
-        matchLabels:
-            app: hello-kdw
-    minReadySeconds: 10
-    strategy:
-        type: RollingUpdate
-        rollingUpdate:
-            maxUnavailable: 1
-            maxSurge: 1
-    template:
-        metadata:
-            labels:
-                app: hello-kdw
-        spec:
-            containers:
-                - name: hello-kdw
-                  image: nginx:latest
-                  ports:
-                      - containerPort: 8080
+  replicas: 6
+  selector:
+    matchLabels:
+      app: hello-kdw
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: hello-kdw
+    spec:
+      containers:
+        - name: hello-kdw
+          image: nginx:latest
+          ports:
+            - containerPort: 8080
