@@ -91,7 +91,13 @@ kubectl get pvc -o wide
 
 kubectl describe pvc <pvc-name>
 ```
-            
+                               
+### physical volumes
+
+```
+kubectl get pv
+```
+
 ### logs
 
 ```
