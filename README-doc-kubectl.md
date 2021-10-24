@@ -82,6 +82,15 @@ kubectl get sc
 
 kubectl describe storageclasses <storage-class-name>
 ```
+
+## persistent volume claims
+
+```
+kubectl get pvc 
+kubectl get pvc -o wide
+
+kubectl describe pvc <pvc-name>
+```
             
 ### logs
 
