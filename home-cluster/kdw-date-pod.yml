@@ -13,7 +13,7 @@ spec:
             command:
                 - /bin/bash
                 - "-c"
-                - "date >> /date-data/$(date --iso) && sleep 61m"
+                - "date >> /date-data/$(date --iso) && sleep 30s"
             volumeMounts:
                 -   mountPath: /date-data
                     name: kdw-vol-name
