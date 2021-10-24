@@ -73,7 +73,13 @@ kubectl edit-deployment <deployment-name>
 kubectl apply -f <some>-deployment.yaml
 kubectl delete -f <some>-deployment.yaml
 ```
+     
+## storage classes
 
+```
+kubectl get storageclasses
+kubectl get sc
+```
             
 ### logs
 
