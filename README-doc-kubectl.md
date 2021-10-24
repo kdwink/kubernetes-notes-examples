@@ -97,6 +97,13 @@ kubectl describe pvc <pvc-name>
 ```
 kubectl get pv
 ```
+ 
+### config maps
+
+``` 
+kubectl get configmaps
+kubectl get cm
+```
 
 ### logs
 
