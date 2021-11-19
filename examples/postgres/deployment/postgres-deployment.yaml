@@ -24,6 +24,8 @@ spec:
           volumeMounts:
             - mountPath: /var/lib/postgresql/data
               name: postgredb
+      nodeSelector:
+        purpose: database
       volumes:
         - name: postgredb
           persistentVolumeClaim:
