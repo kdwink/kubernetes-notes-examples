@@ -1,0 +1,25 @@
+# PostgreSQL StatefulSet
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgresql-db
+spec:
+  serviceName: postgresql-db-service
+  selector:
+    matchLabels:
+      app: postgresql-db
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: postgresql-db
+    spec:
+      nodeSelector:
+        purpose: database
+      containers:
+        - name: postgresql-db
+          image: postgres:13.5
+          # Config from ConfigMap
+          envFrom:
+            - configMapRef:
+                name: postgres-db-config
