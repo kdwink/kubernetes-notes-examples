@@ -18,7 +18,7 @@ spec:
         purpose: database
       containers:
         - name: postgresql-db
-          image: postgres:latest
+          image: postgres:13.5
           volumeMounts:
             - name: postgresql-db-disk
               mountPath: /data
