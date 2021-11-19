@@ -52,6 +52,12 @@ kubectl get pod <pod-name>
 kubectl get pod -o wide <pod-name>
 kubectl get pods --watch
 ```
+      
+### statefulset
+
+```
+kubectl scale -n default statefulset postgresql-db --replicas=0
+```
 
 ### deployments
 
