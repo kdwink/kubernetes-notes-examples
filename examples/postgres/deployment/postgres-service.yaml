@@ -5,10 +5,9 @@ metadata:
   labels:
     app: postgres
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
     - port: 5432
-      nodePort: 31232
-      protocol: TCP
+      targetPort: 5432
   selector:
     app: postgres
