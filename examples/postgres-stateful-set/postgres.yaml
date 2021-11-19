@@ -14,6 +14,8 @@ spec:
       labels:
         app: postgresql-db
     spec:
+      nodeSelector:
+        purpose: database
       containers:
         - name: postgresql-db
           image: postgres:latest
